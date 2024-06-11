@@ -13,11 +13,6 @@ const {
     approve_for_all,
     doSwap 
   } = require('../dex/uniswap_actions');
-const {
-    addSpreadData,
-    calculateStandardDeviation,
-    removeSpreadDataBeforeTimestamp
-} = require('../models/coin_spread_utils');
 
 var curRatioAsk_cex = {};
 var curRatioBid_cex = {};
